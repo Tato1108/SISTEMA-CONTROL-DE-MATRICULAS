@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Sistéma de Matrícula</title>
+	<link rel="stylesheet" type="text/css" href="css/styleind.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/stylenom.css">
+	
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$("#menu").load("menu.html");
+			$("#pie").load("pie.html");
+		});
+	
+	</script>
+	
+	<script type="text/javascript">
+
+				/*entrada*/
+			 $(document).ready(function(){
+				$('#mostrar').click(function(){
+					$('#lista').fadeIn(1000);	
+				})
+
+				/*salida*/
+				/**/
+			$('#imprimir').click(function(){
+				$('#lista').fadeOut(1000);	
+			})
+
+			})
+	
+	</script>
+	
+		<script type="text/javascript">
+
+				/*entrada*/
+			 $(document).ready(function(){
+				$('#mostrar').click(function(){
+					$('#lista').fadeIn(1000);	
+				})
+
+				/*salida*/
+				/**/
+			$('#imprimir').click(function(){
+				$('#lista').fadeOut(1000);	
+			})
+
+			})
+	
+		
+	
+	</script>
+
+	
+
+</head>
+<!-- ..................................................... ............-->
+<body>
+<div id="inicio">	
+		<div class="titulo">
+			<h1><em>Sistema de Matrícula</em></h1>
+		</div>
+		<!-- iMAGEN DEL BANNER CENTRADA-->
+		
+			<div class="logo">
+							<center><img src="img/LOGO DESPERTARES 02.png" height="100px"></center>
+			</div>
+	</div>
+<!-- ..................................................... -->
+	<header id="menu"> <!-- Aqui estara el menu --> 	</header>
+	
+
+	
+<div id="nomina">
+	
+	<div class="letra"><h1><td><b><em>Alumnos Matriculados</em></b></td></h1></div>
+	<center>
+	<table>
+		<tr>
+		<td>Periodo de Matrícula</td><td>
+									<select name="">
+
+										<option>Año lectivo 2024</option>
+										<option>Año lectivo 2025</option>
+										<option>Año lectivo 2026</option>
+										<option>Año lectivo 2027</option>
+										<option>Año lectivo 2028</option>
+										<option>Año lectivo 2029</option>
+
+									</select>
+									</td>
+		</tr>
+		<tr>
+		<td>Nivel o Grado</td><td>
+									<select name="">
+
+										<option>Prejardín</option>
+										<option>Jardín</option>
+										<option>Transisicón</option>
+										<option>Primero (1°)</option>
+										<option>Segundo (2°)</option>
+										<option>Tercero (3°)</option>
+										<option>Cuarto (4°)</option>
+										<option>Quinto (5°)</option>
+										<option>Sexto (6°)</option>
+										<option>Séptimo (7°)</option>
+										<option>Octavo (8°)</option>
+										<option>Noveno (9°)</option>
+										<option>Décimo (10°)</option>
+										<option>Undecimo (11°)</option>
+										
+									</select>
+									</td>
+		</tr>
+		
+		<tr>
+		<td>Edad</td><td>
+									<select name="">
+
+										  <option>3 años</option>
+									      <option>4 años</option>
+									      <option>5 años</option>
+									      <option>6 años</option>
+									      <option>7 años</option>
+									      <option>8 años</option>
+									      <option>9 años</option>
+									      <option>10 años</option>
+									      <option>11 años</option>
+									      <option>12 años</option>
+									      <option>13 años</option>
+									      <option>14 años</option>
+									      <option>15 años</option>
+									      <option>16 años</option>
+									      
+							    </select>
+
+									</td>
+		</tr>
+		<tr>
+		<td>RH</td><td>
+									<select name="" value="red" style="background-color:#f1f1f1;">
+
+										  <option>O+</option>
+									      <option>O-</option>
+									      <option>A+</option>
+									      <option>A-</option>
+									      <option>B+</option>
+									      <option>B-</option>
+									      <option>AB+</option>
+									      <option>AB-</option>
+									      
+	
+							    </select>
+
+									</td>
+		</tr>
+		
+		<tr>
+		<td>Paralelo</td><td>
+									<select name="">
+
+										   <option>A</option>
+									      <option>B</option>
+									      <option>C</option>
+									      <option>D</option>
+									
+							    </select>
+
+									</td>
+		</tr>
+	</table>
+	</center>
+	<br>
+		<button id="mostrar">Buscar</button>
+	
+</div>
+<br>
+<br>
+
+
+	<div id="lista">
+	<h2><em>Nomina Estudiantil</em></h2>
+	<center>
+			<table border="1" bordercolor="silver" bgcolor="#fififi"><font color="white">
+				<tr><em>
+					<td><b><em>N.-</em></b></td>
+					<td><b><em>Apellido</em></b></td>
+					<td><b><em>Nombre</em></b></td>
+					<td><b><em>Matricula</em></b></td>
+					<td><b><em>Estado de la Matricula</em></b></td>
+				</tr>
+				<tr>
+				<td>1</td>
+				<td>Martinez Ortiz</td>
+				<td>Gustavo Andres</td>
+				<td>93410382</td>
+				<td>Matriculado</td>
+				</tr>
+				<td>2</td>
+				<td>Quintero Osorio</td>
+				<td>Alberto</td>
+				<td>1104452458</td>
+				<td>Matriculado</td>
+				</tr>
+				<td>3</td>
+				<td>Espinel Ortega</td>
+				<td>Jenni Fernanda</td>
+				<td>28852659</td>
+				<td>Matriculado</td>
+				</tr>
+				<td>4</td>
+				<td>Linares Galindo</td>
+				<td>Diana Maribel</td>
+				<td>698563256</td>
+				<td>Matriculado</td>
+				</tr>
+			</font></table>
+			<br>
+			<br>
+			<button id="imprimir">Imprimir</button>
+	</center>
+	</div>
+
+	
+		
+		
+	
+
+<!-- ..................................................... ............-->
+<footer id="pie"> <!-- Aqui estara el pie --> </footer>
+
+</body>
+
+</html>

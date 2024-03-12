@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Sistéma de Matrícula</title>
+	<link rel="stylesheet" type="text/css" href="css/styleind.css">
+		<link rel="stylesheet" type="text/css" href="css/stylemat.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+
+		<script>
+	$(document).ready(function(){
+		$("#menu").load("menu.html");
+		$("#pie").load("pie.html");
+		
+	});
+	
+	
+	</script>
+	
+
+</head>
+
+<body>
+<!-- ..................................................... ............-->
+
+	<div id="inicio">	
+		<div class="titulo">
+			<h1><em>Sistema de Matrícula</em></h1>
+		</div>
+		<!-- iMAGEN DEL BANNER CENTRADA-->
+		
+			<div class="logo">
+							<center><img src="img/LOGO DESPERTARES 02.png" height="100px"></center>
+			</div>
+	</div>
+
+<!-- ..................................................... -->
+	<header id="menu"> <!-- Aqui estara el menu --> </header>
+	
+	
+			<div id="tipo" align="center">
+				<h5>Tipo de Matricula</h5>
+				<input type="radio" name="primera" value="">Primera
+				<input type="radio" name="segunda" value="">Segunda
+			</div>
+			<br>
+<!-- ..................................................... -->
+			<div class="todofondo">
+			<h1>Sistema de Matricula</h1>
+
+			<div class="verificacion">
+					<h1>Datos de Verificación:</h1>  
+					<hr>
+				<form>
+				<center>
+					  <table>
+						  <tr>
+						  <td>T.I.:</td><td><input type="text" name:="nombre" ></td>
+						  </tr>
+							  <tr>
+							  <td>E-mail:</td><td><input type="text" ></td>
+							  </tr>
+						  <!--<tr>
+						  <td>Correo:</td><td><input type="text" ></td>
+						  </tr>-->
+					  </table>
+				</center>
+				</form>
+			</div>
+			<br>
+			
+		
+	 		<div class="verificacion">
+			<h1>Registro Academico:</h1>  
+					<hr>
+				<form>
+					<center>
+							<table>
+									  <tr>
+									  <td>Periodo:</td><td>
+									  <select name="catsndogs">
+
+										<option>Año lectivo 2024</option>
+										<option>Año lectivo 2025</option>
+										<option>Año lectivo 2026</option>
+										<option>Año lectivo 2027</option>
+										<option>Año lectivo 2028</option>
+										<option>Año lectivo 2029</option>
+
+									</select></td>
+									  </tr>
+										  <tr>
+										  <td>Fecha:</td><td><input type="date" ></td>
+										  </tr>
+									  <tr>
+									  <td>Jornada:</td>
+										 <td>
+										 
+										  	<select name="catsndogs">
+												<option>Completa</option>
+												
+											</select>
+											
+										</td>
+									  </tr>
+									  
+							 </table>
+					</center>
+				</form>
+			</div>
+			<br>
+			
+			
+			
+			<table>
+			<tr>
+			<td>
+	 		<div class="verificacion">
+			<h1>Datos Personales:</h1>  
+					<hr>
+				<form>
+					<center>
+							<table>
+									  <tr>
+									  <td>Nombres:</td><td> <input type="text"><br></td>
+									  </tr>
+										  <tr>
+										  <td>Apellidos:</td><td><input type="text" ></td>
+										  </tr>
+									  <tr>
+									  <td>Fecha de Nacimiento:</td><td><input type="date"></td>
+									  </tr>
+										  <tr>
+										  <td>Sexo:</td>
+											  <td>
+											  
+												 <select name="catsndogs">
+														<option>Femenino</option>
+														<option>Maculino</option>
+														<option>Otro</option>
+												</select>
+												
+												</td>
+										  </tr>
+									   <tr>
+									  <td>Ciudad:</td><td> <input type="text"><br></td>
+									  </tr>
+										  <tr>
+										  <td>Direccion:</td><td><input type="text" ></td>
+										  </tr>
+									  <tr>
+										<td>Posee alguna discapacidad:</td>
+											  <td>
+											  
+												 <select name="catsndogs">
+														<option>Si</option>
+														<option>No</option>
+														<option> </option>
+												</select>
+												
+												</td>
+										  </tr>
+									  <td>¿Cúal?:</td><td><input type="text" ></td>
+									  </tr>
+									  <td>Último grado cursado:</td>
+									  <td>
+									  
+										 <select name="catsndogs">
+												<option>Transición</option>
+												<option>Primero</option>
+												<option>Segundo</option>
+												<option>Tercero</option>
+												<option>Cuarto</option>
+												<option>Quinto</option>
+												<option>Sexto</option>
+												<option>Séptimo</option>
+												<option>Octavo</option>
+												<option>Noveno</option>
+												<option>Décimo</option>
+												<option>Once</option>
+										</select>
+										
+										</td>
+								  </tr>
+									  <tr>
+										<td>Tipo de Sangre:</td>
+										<td>
+										
+										   <select name="catsndogs">
+												  <option>O+</option>
+												  <option>O-</option>
+												  <option>A+</option>
+												  <option>A-</option>
+												  <option>B+</option>
+												  <option>B-</option>
+												  <option>AB+</option>
+												  <option>AB-</option>
+												  <option> </option>												  
+										  </select>
+										  
+										  </td>
+									</tr>
+									  
+							 </table>
+					</center>
+				</form>
+			</div>
+			</td>
+			<td>
+
+			<div class="verificacion">
+			<h1>Informacion Familiar:</h1>  
+					<hr>
+				<form>
+					<center>
+							<table>
+									  <tr>
+									  <td>Padre:</td><td> <input type="text"><br></td>
+									  </tr>
+										  <tr>
+										  <td>Direccion:</td><td><input type="text" ></td>
+										  </tr>
+									  <tr>
+									  <td>Telefono:</td><td><input type="text" ></td>
+									  </tr>
+										  <tr>
+										  <td>Ocupación:</td><td><input type="text" ></td>
+										  </tr>
+										  <tr>
+									  <td>Madre:</td><td> <input type="text"><br></td>
+									  </tr>
+										  <tr>
+										  <td>Direccion:</td><td><input type="text" ></td>
+										  </tr>
+									  <tr>
+									  <td>Telefono:</td><td><input type="text" ></td>
+									  </tr>
+										  <tr>
+										  <td>Ocupación:</td><td><input type="text" ></td>
+										  </tr>
+									  <tr>
+									  <td>Estado Civil:</td>
+										  <td>
+											  	<select name="catsndogs">
+														<option>Union Libre</option>
+														<option>Casados</option>
+														<option>Divorcioados</option>
+														<option>Otro</option>
+												</select>
+											</td>	
+									  </tr>
+							 </table>
+					</center>
+				</form>
+			</div>
+			<td>
+			</tr>
+		</table>
+		<br>
+
+		<input type="submit" value="Enviar">
+		<input type="submit" value="Buscar">
+		<input type="submit" value="Modificar">
+		<input type="submit" value="Imprimir">
+
+
+</div>
+
+
+	
+
+<!-- ..................................................... ............-->
+
+	<footer id="pie"> <!-- Aqui estara el pie --> </footer>
+	
+	
+</body>
+</html>
